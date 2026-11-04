@@ -267,7 +267,6 @@ const classConfig = {
   "coxib": { label: "Coxib (COX-2 Seletivo)", color: "#EF4444", bg: "#3D0A0A" },
 };
 
-const maxEfficacy = 100;
 
 function EfficacyBar({ nnt, classKey }) {
   const efficacy = Math.round((1 / nnt) * 100);
